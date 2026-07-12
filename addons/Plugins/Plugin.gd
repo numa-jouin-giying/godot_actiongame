@@ -1,0 +1,11 @@
+@tool
+extends EditorPlugin
+
+
+func _enter_tree() -> void:
+	add_custom_type("InputHandler" , "Node" , preload("res://Scripts/Addons/InputHandler.gd") , null )
+	pass 
+
+func _exit_tree() -> void:
+	remove_custom_type("InputHandler")
+	pass
