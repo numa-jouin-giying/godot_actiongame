@@ -6,7 +6,7 @@
 [node name="TitleScene" type="Node3D" unique_id=1087557320]
 
 [node name="PlayableCharacter" parent="." unique_id=2008293554 instance=ExtResource("1_j8exe")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4658947, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4256296, 0)
 
 [node name="Floor" parent="." unique_id=542586775 instance=ExtResource("2_ryprb")]
 
